@@ -1,0 +1,26 @@
+{
+  "name": "array-tabular",
+  "version": "0.0.1",
+  "description": "array tabular",
+  "main": "index.js",
+  "scripts": {
+    "test": "node test.js",
+    "build": "babel ./src/index.js -o ./index.js --optional runtime",
+    "prepublish": "npm run build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ruanyl/array-tabular"
+  },
+  "keywords": ["tabular"] ,
+  "author": "Yulong Ruan",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ruanyl/array-tabular/issues"
+  },
+  "homepage": "https://github.com/ruanyl/array-tabular",
+  "dependencies": {
+    "ava": "0.0.4"
+  },
+  "devDependencies": {}
+}
