@@ -1,6 +1,6 @@
 {
   "name": "array-tabular",
-  "version": "0.0.1",
+  "version": "0.1.0",
   "description": "array tabular",
   "main": "index.js",
   "scripts": {
@@ -12,7 +12,7 @@
     "type": "git",
     "url": "https://github.com/ruanyl/array-tabular"
   },
-  "keywords": ["tabular"] ,
+  "keywords": ["tabular", "array"] ,
   "author": "Yulong Ruan",
   "license": "MIT",
   "bugs": {
