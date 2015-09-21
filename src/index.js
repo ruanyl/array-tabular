@@ -2,18 +2,18 @@
 
 function arrayTabular(arr) {
   let longest = 0;
-  arr.forEach(function(ele) {
+  arr.forEach((ele) => {
     longest = longest < ele.length ? ele.length : longest;
   });
 
   let before = function(placeHolder = ' ') {
-    return arr.map(function(ele) {
+    return arr.map((ele) => {
       return new Array(longest - ele.length + 1).join(placeHolder) + ele;
     });
   };
 
   let after = function(placeHolder = ' ') {
-    return arr.map(function(ele) {
+    return arr.map((ele) => {
       return ele + new Array(longest - ele.length + 1).join(placeHolder);
     });
   };
